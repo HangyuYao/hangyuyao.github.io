@@ -1,9 +1,230 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Hello</tilte>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Hangyu Yao - junior software engineer focused on backend, full-stack, web development, and AI/ML projects."
+    >
+    <title>Hangyu Yao | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>This is my website</h1>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Hangyu Yao</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="eyebrow">M.S. Computer Science | Open to relocate</p>
+          <h1 id="intro-title">Backend-minded software engineer with AI/ML project depth.</h1>
+          <p class="lead">
+            I build Python, web, and data-driven software projects, with hands-on experience in
+            JavaScript, SQL, Docker, Linux, Git/GitHub, and applied AI workflows. My background
+            connects practical full-stack development with LLMs, computer vision, PyTorch, and
+            model evaluation.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="assets/Hangyu_Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+            <a class="button secondary" href="https://github.com/HangyuYao" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button secondary" href="mailto:yaohangyu1@gmail.com">Email</a>
+          </div>
+          <dl class="quick-facts" aria-label="Quick facts">
+            <div>
+              <dt>Location</dt>
+              <dd>Birmingham, AL</dd>
+            </div>
+            <div>
+              <dt>Available</dt>
+              <dd>July 15, 2026</dd>
+            </div>
+            <div>
+              <dt>Target Roles</dt>
+              <dd>Backend, Software, Full-stack</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="portrait-wrap">
+          <img src="assets/hangyu-yao.jpg" alt="Portrait of Hangyu Yao" class="portrait">
+          <figcaption>Graduate student in Computer Science at SIUE</figcaption>
+        </figure>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-meta">
+              <span>Graduate Research</span>
+              <span>Python / PyTorch / Streamlit</span>
+            </div>
+            <h3>Plant Disease Segmentation and Classification</h3>
+            <p>
+              Portfolio-ready dashboard and research project exploring original, leaf-segmented,
+              and lesion-only image preparation settings for plant disease classification.
+            </p>
+            <ul>
+              <li>Compared MobileNet, EfficientNet, and MCFFA-based segmentation/classification workflows.</li>
+              <li>Designed ablation-style evaluation around accuracy, segmentation quality, and inference efficiency.</li>
+              <li>Organized lightweight reports, curated figures, reproducibility notes, and project checks for GitHub.</li>
+            </ul>
+            <a class="text-link" href="https://github.com/HangyuYao/plant-disease-segmentation-classification" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Full-stack Practice</span>
+              <span>Admin dashboard</span>
+            </div>
+            <h3>E-commerce Admin Dashboard</h3>
+            <p>
+              Full-stack e-commerce admin dashboard concept for product, inventory, and order
+              management, aligned with backend CRUD workflows and storefront operations.
+            </p>
+            <ul>
+              <li>Focuses on structured product and inventory management flows.</li>
+              <li>Supports a practical software engineering portfolio beyond academic AI projects.</li>
+            </ul>
+            <a class="text-link" href="https://github.com/HangyuYao/-ecommerce-admin-dashboard" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Senior Design</span>
+              <span>Python / Docker / GitHub</span>
+            </div>
+            <h3>Aquatic Invertebrate Counts Using AI</h3>
+            <p>
+              Python-based image analysis system inspired by YOLO to count and classify aquatic
+              invertebrates from images.
+            </p>
+            <ul>
+              <li>Combined preprocessing, object-detection-style logic, and species identification workflows.</li>
+              <li>Used Docker for environment consistency and Git/GitHub for team collaboration.</li>
+            </ul>
+            <a class="text-link" href="https://github.com/HangyuYao/CS490" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Client Web Work</span>
+              <span>Wix / Shopify / CSS</span>
+            </div>
+            <h3>Independent Web Development Projects</h3>
+            <p>
+              Client-facing website work for a fishing charter business and a wholesale jewelry
+              Shopify storefront.
+            </p>
+            <ul>
+              <li>Redesigned Top to Bottom Fishing Charter pages for clearer services, FAQ, navigation, and booking-oriented content.</li>
+              <li>Customized Shopify collection structure, page layouts, navigation menus, theme sections, and CSS for product browsing.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Networking</span>
+              <span>Client / Server</span>
+            </div>
+            <h3>Network Protocol Server</h3>
+            <p>
+              Command-driven client/server networking project with protocol-style request parsing,
+              response codes, file-backed data storage, and article/group retrieval workflows.
+            </p>
+            <ul>
+              <li>Practiced backend concepts including state management, error handling, synchronization, and network debugging.</li>
+            </ul>
+            <a class="text-link" href="https://github.com/HangyuYao/CS490-Project-2" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Deep Learning</span>
+              <span>LLMs / Evaluation</span>
+            </div>
+            <h3>LLM Chatbot Preference Prediction</h3>
+            <p>
+              Course project predicting preferred chatbot responses from human-labeled Chatbot
+              Arena comparison data.
+            </p>
+            <ul>
+              <li>Compared Logistic Regression, LightGBM, BERT, and Gemma.</li>
+              <li>Evaluated with accuracy, F1-score, log-loss, ROC-AUC, and confusion matrices.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Toolbox</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skill-groups">
+          <section class="skill-group" aria-labelledby="languages-title">
+            <h3 id="languages-title">Languages</h3>
+            <p>Python, JavaScript, SQL, C++, MATLAB</p>
+          </section>
+          <section class="skill-group" aria-labelledby="backend-title">
+            <h3 id="backend-title">Backend & Web</h3>
+            <p>SQL databases, REST API fundamentals, data processing, Docker, Linux, CRUD-style workflows, React fundamentals, HTML, CSS, responsive design, Wix, Shopify</p>
+          </section>
+          <section class="skill-group" aria-labelledby="ai-title">
+            <h3 id="ai-title">AI / ML</h3>
+            <p>LLMs, deep learning, CNNs, PyTorch, scikit-learn, pandas, NumPy, matplotlib, computer vision, model evaluation</p>
+          </section>
+          <section class="skill-group" aria-labelledby="workflow-title">
+            <h3 id="workflow-title">Workflow</h3>
+            <p>Git/GitHub, VS Code, Jupyter/Colab, technical documentation, OpenAI Codex and ChatGPT-assisted debugging</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="section education" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Southern Illinois University Edwardsville</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <p class="date">Aug 2024 - May 8, 2026</p>
+            <h3>M.S. in Computer Science</h3>
+            <p>GPA: 3.62</p>
+            <p>Relevant coursework: Advanced Artificial Intelligence, Image Processing, Advanced Algorithms, Database and Web Systems, Networking, Programming Languages.</p>
+          </article>
+          <article>
+            <p class="date">Jan 2020 - May 2024</p>
+            <h3>B.S. in Computer Science, Minor in Mathematics</h3>
+            <p>GPA: 3.279</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Interested in junior backend, software, or full-stack roles.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:yaohangyu1@gmail.com">yaohangyu1@gmail.com</a>
+          <a class="button secondary" href="tel:+16187968666">618-796-8666</a>
+          <a class="button secondary" href="https://github.com/HangyuYao" target="_blank" rel="noreferrer">github.com/HangyuYao</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
