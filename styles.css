@@ -110,11 +110,11 @@ p {
 }
 
 h1 {
-  max-width: 790px;
-  margin-bottom: 20px;
+  max-width: 620px;
+  margin-bottom: 18px;
   color: #15212b;
-  font-size: clamp(2.45rem, 6vw, 5.15rem);
-  line-height: 0.98;
+  font-size: clamp(2.25rem, 4.5vw, 3.65rem);
+  line-height: 1.04;
   letter-spacing: 0;
 }
 
@@ -132,10 +132,10 @@ h3 {
 }
 
 .lead {
-  max-width: 720px;
+  max-width: 680px;
   margin-bottom: 26px;
   color: #40505f;
-  font-size: 1.08rem;
+  font-size: 1.02rem;
 }
 
 .hero-actions,
@@ -400,7 +400,7 @@ h3 {
   }
 
   h1 {
-    font-size: 2.38rem;
+    font-size: 2.18rem;
   }
 
   .section {
